@@ -1,0 +1,28 @@
+{
+  "name": "social_chatmethoddescriptorslib",
+  "version": "1.0.0",
+  "description": "AllexJS lib with method descriptors for the Chat service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/social-libs/chatmethoddescriptors.git"
+  },
+  "keywords": [
+    "ecosystem:AllexJS",
+    "social",
+    "chat",
+    "service",
+    "method",
+    "descriptors",
+    "lib"
+  ],
+  "author": "Andrija Petrovic <andrija.hers@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/social-libs/chatmethoddescriptors/issues"
+  },
+  "homepage": "https://github.com/social-libs/chatmethoddescriptors#readme"
+}
