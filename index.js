@@ -15,6 +15,9 @@ function createLib (execlib) {
         },{
           name: 'Message',
           type: 'String'
+        },{
+          name: 'Options',
+          type: 'object'
         }],
         createNewGroupWithMembers: [{
           name: 'Username',
@@ -69,8 +72,21 @@ function createLib (execlib) {
         },{
           name: 'Message ID',
           type: 'number'
+        }],
+        editMessage: [{
+          name: 'From',
+          type: 'String'
+        },{
+          name: 'Conversation ID',
+          type: 'string'
+        },{
+          name: 'Message ID',
+          type: 'number'
+        },{
+          name: 'Edited Message',
+          type: 'string'
         }]
-      },
+      }
     },
     user: {
       service: {

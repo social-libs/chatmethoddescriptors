@@ -10,6 +10,9 @@ module.exports = {
       },{
         name: 'Msg',
         type: 'string'
+      },{
+        name: 'Options',
+        type: 'object'
       }],
       getChatConversations: true,
       initiateChatConversationsWithUsers: [{
@@ -39,7 +42,17 @@ module.exports = {
       },{
         name: 'Message ID',
         type: 'number'
-      }]
-    },
+      }],
+      editChatMessage: [{
+        name: 'Conversation ID',
+        type: 'string'
+      },{
+        name: 'Message ID',
+        type: 'number'
+      },{
+        name: 'Edited Message',
+        type: 'string'
+      }],
+    }
   }
 };

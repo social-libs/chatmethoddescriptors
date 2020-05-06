@@ -43,8 +43,18 @@ module.exports = {
       },{
         name: 'Message ID',
         type: 'number'
-      }]
-    },
+      }],
+      editChatMessage: [{
+        name: 'Conversation ID',
+        type: 'string'
+      },{
+        name: 'Message ID',
+        type: 'number'
+      },{
+        name: 'Edited Message',
+        type: 'string'
+      }],
+    }
   }
 };
 
