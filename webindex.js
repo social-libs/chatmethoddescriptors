@@ -29,6 +29,7 @@ module.exports = {
         name: 'How Many',
         type: ['number', 'null']
       }],
+      /*
       markMessageRcvd: [{
         name: 'Conversation ID',
         type: 'string'
@@ -36,6 +37,7 @@ module.exports = {
         name: 'Message ID',
         type: 'number'
       }],
+      */
       markMessageSeen: [{
         name: 'Conversation ID',
         type: 'string'
@@ -52,7 +54,21 @@ module.exports = {
       },{
         name: 'Edited Message',
         type: 'string'
+      },{
+        name: 'Options',
+        type: 'object'
       }],
+      reportChatActivity: [{
+        name: 'Conversation ID',
+        type: 'string'
+      }],
+      createNewChatGroupWithMembers: [{
+        name: 'Group Name',
+        type: ['string', 'object']
+      },{
+        name: 'Member IDs',
+        type: 'array'
+      }]
     }
   }
 };

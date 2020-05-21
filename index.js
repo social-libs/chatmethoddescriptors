@@ -85,6 +85,26 @@ function createLib (execlib) {
         },{
           name: 'Edited Message',
           type: 'string'
+        },{
+          name: 'Options',
+          type: 'object'
+        }],
+        reportChatActivity: [{
+          name: 'User ID',
+          type: 'string'
+        },{
+          name: 'Conversation ID',
+          type: 'string'
+        }],
+        createNewGroupWithMembers: [{
+          name: 'Creator ID',
+          type: 'string'
+        },{
+          name: 'Group Name',
+          type: ['string', 'object']
+        },{
+          name: 'Member IDs',
+          type: 'array'
         }]
       }
     },
@@ -102,7 +122,7 @@ function createLib (execlib) {
             mids: { type: 'array' },
             lastmessage: {
               type: 'object',
-              required: ['from', 'message', 'created', 'seen']
+              required: ['from', 'message', 'created']
             }
           }
         }]
