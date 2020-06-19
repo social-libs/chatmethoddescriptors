@@ -120,7 +120,7 @@ function createLib (execlib) {
           properties: {
             affected: { type: 'array' },
             mids: { type: 'array' },
-            lastmessage: {
+            lastm: {
               type: 'object',
               required: ['from', 'message', 'created']
             }
