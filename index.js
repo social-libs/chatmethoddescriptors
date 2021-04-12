@@ -105,6 +105,10 @@ function createLib (execlib) {
         },{
           name: 'Member IDs',
           type: 'array'
+        }],
+        removeConversation: [{
+          name: 'Conversation ID',
+          type: ['string', 'array']
         }]
       }
     },
